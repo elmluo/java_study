@@ -1,6 +1,6 @@
 package com.study_java_2;
 
-public class 类和对象_成员变量和局部 {
+public class 类和对象1_成员变量和局部 {
     /*
     * 成员变量：类中定义的变量
     * 局部变量：方法中定义的变量
@@ -43,7 +43,7 @@ public class 类和对象_成员变量和局部 {
     * */
     public static void main(String[] args){
         // 创建实例
-        类和对象_成员变量和局部 phone = new 类和对象_成员变量和局部();
+        类和对象1_成员变量和局部 phone = new 类和对象1_成员变量和局部();
         phone.call();
     }
 }

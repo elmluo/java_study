@@ -3,11 +3,11 @@ package com.study_java_2;
 /**
  * Created by Administrator on 2017/7/3 0003.
  */
-public class 封装_什么是java中的封装 {
+public class 封装1_什么是java中的封装 {
 
     /*
     * 概念
-    *    将类的信息隐藏在类的内部，不允许外部直接访问，
+    *    将类的信息（一般指一些属性值）隐藏在类的内部，不允许外部直接访问，
     *    而是通过该类提供的方法，来实现对隐藏信息的操作和访问
     * 优点
     *   只能通过规定的方法访问数据；
@@ -25,7 +25,7 @@ public class 封装_什么是java中的封装 {
     private float cup;
 
     // 定义构造函数
-    public 封装_什么是java中的封装(float newScreen, float newCup) {
+    public 封装1_什么是java中的封装(float newScreen, float newCup) {
         screen = newScreen;
         cup = newCup;
     }
@@ -41,7 +41,7 @@ public class 封装_什么是java中的封装 {
 
     // 入口函数
     public static void main(String[] args) {
-        封装_什么是java中的封装 telephone = new 封装_什么是java中的封装(0.5f, 0.6f);
+        封装1_什么是java中的封装 telephone = new 封装1_什么是java中的封装(0.5f, 0.6f);
         System.out.println(telephone.cup);  // 在同一个类中，当然可以直接访问到私有成员
 
         // 重新设置属性的初始值

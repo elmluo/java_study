@@ -3,7 +3,7 @@ package com.study_java_2;
 /**
  * Created by Administrator on 2017/7/3 0003.
  */
-public class 类和方法_static静态初始化块 {
+public class 类和方法5_static静态初始化块 {
     /**
      * java中通过初始化块，对变量进行赋值。
      * <p>
@@ -24,7 +24,7 @@ public class 类和方法_static静态初始化块 {
     static int num3;
 
     // 构造方法
-    public 类和方法_static静态初始化块(int newNum1) {
+    public 类和方法5_static静态初始化块(int newNum1) {
         // 给普通成员变量赋值
         num1 = newNum1;
         System.out.print("通过有参数构造方法为成员变量num1动态赋值");
@@ -46,13 +46,13 @@ public class 类和方法_static静态初始化块 {
     public static void main(String[] args) {
 
         // 创建实例对象 静态初试化块，类加载时执行，且只会执行一次，
-        类和方法_static静态初始化块 hello = new 类和方法_static静态初始化块(1);
+        类和方法5_static静态初始化块 hello = new 类和方法5_static静态初始化块(1);
         System.out.println("num1:" + hello.num1);
         System.out.println("num2:" + hello.num2);
         System.out.println();
 
         // 第二次加载类，静态初试化块儿不执行，普通初试化块儿执行
-        类和方法_static静态初始化块 hello2 = new 类和方法_static静态初始化块(1);
+        类和方法5_static静态初始化块 hello2 = new 类和方法5_static静态初始化块(1);
 
     }
 }
